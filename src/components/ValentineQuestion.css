@@ -1,0 +1,170 @@
+.question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.question-title {
+  font-size: 3rem;
+  color: #d63384;
+  margin-bottom: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.button-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.yes-btn {
+  padding: 1.2rem 3rem;
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+  font-weight: 600;
+  z-index: 10;
+  position: relative;
+}
+
+.yes-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(40, 167, 69, 0.6);
+}
+
+.yes-btn:active {
+  transform: scale(1.05);
+}
+
+.no-btn {
+  padding: 1.2rem 3rem;
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(220, 53, 69, 0.4);
+  font-weight: 600;
+  z-index: 5;
+  position: relative;
+}
+
+.no-btn:hover {
+  cursor: not-allowed;
+}
+
+.celebration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  animation: fadeInCelebration 0.8s ease;
+}
+
+.celebration-content {
+  background: linear-gradient(135deg, #fff5f7 0%, #ffeef2 100%);
+  border: 3px solid #ffb3d1;
+  border-radius: 30px;
+  padding: 3rem;
+  box-shadow: 0 10px 40px rgba(214, 51, 132, 0.2);
+  max-width: 600px;
+}
+
+.celebration-title {
+  font-size: 3.5rem;
+  color: #d63384;
+  margin-bottom: 1.5rem;
+  animation: bounce 1s ease infinite;
+}
+
+.celebration-text {
+  font-size: 1.5rem;
+  color: #8b1538;
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.hearts {
+  font-size: 2rem;
+  margin-top: 2rem;
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes fadeInCelebration {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .question-title {
+    font-size: 2rem;
+  }
+  
+  .yes-btn,
+  .no-btn {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+  
+  .celebration-title {
+    font-size: 2.5rem;
+  }
+  
+  .celebration-text {
+    font-size: 1.2rem;
+  }
+}
