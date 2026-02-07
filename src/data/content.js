@@ -85,5 +85,6 @@ export const dateIdeas = [
   "Attend an Amr Diab concert 🎵",
   "Go to a Tamer Ashour concert 🎤",
   "Go painting at the same place where we first met - the perfect date! 🎨💕",
-  "Get very dressed up, hold red flowers, and go to a place where no one knows us - like a new city! 🌹✨"
+  "Get very dressed up, hold red flowers, and go to a place where no one knows us - like a new city! 🌹✨",
+  "Sleep one night in Mena's house after marriage 🏠💕"
 ];
