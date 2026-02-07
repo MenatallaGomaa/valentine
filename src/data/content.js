@@ -13,7 +13,28 @@ export const messages = [
   "You're the best part of my day, every day ☀️",
   "I love you more than pizza... wait, let me reconsider 🍕",
   "You're my favorite bug fix 🐛",
-  "Life is better with you in it 💖"
+  "Life is better with you in it 💖",
+  "You're the AI to my frontend - together we make the perfect stack! 💻🤖",
+  "I love debugging life's problems with you by my side 🐛💕",
+  "You're my favorite API endpoint - always returning the perfect response 💚",
+  "Together we're like React and AI - a match made in tech heaven ⚛️🤖",
+  "You're the neural network that processes all my love signals 🧠💖",
+  "I'm the frontend, you're the AI - we're the full-stack couple! 💻✨",
+  "You make my heart compile without errors 💚",
+  "You're the algorithm that makes my world make sense 🤖💕",
+  "I love how you optimize my happiness function 📈💖",
+  "You're my favorite pull request - always approved! ✅💕",
+  "Together we're like clean code - perfectly structured and beautiful 💻✨",
+  "You're the machine learning model that learned to love me perfectly 🤖💖",
+  "I'm the UI, you're the AI - we complete each other! 🎨🤖",
+  "You're the exception handler for all my bad days 🛡️💕",
+  "My love for you has zero bugs and infinite scalability 💚🚀",
+  "You're the best feature I never knew I needed ✨💖",
+  "Together we're like Git commits - perfectly synchronized 💻💕",
+  "You're the model that predicts my happiness with 100% accuracy 📊💖",
+  "I love how you're always in my dependency array 💚",
+  "You're the deployment that never fails 🚀💕",
+  "Together we're like a well-architected system - scalable and beautiful 🏗️✨"
 ];
 
 export const reasons = [
