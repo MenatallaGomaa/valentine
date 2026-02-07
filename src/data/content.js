@@ -17,21 +17,19 @@ export const messages = [
 ];
 
 export const reasons = [
-  "Because you make me laugh even when I'm grumpy 😊",
-  "Because you're the only person who gets my weird sense of humor 🤪",
-  "Because you put up with my terrible jokes 😅",
-  "Because you're incredibly kind and thoughtful 💝",
-  "Because you make ordinary moments feel special ✨",
-  "Because you're my favorite person to be lazy with 🛋️",
-  "Because you remember the little things that matter 🎯",
-  "Because you're patient when I'm being difficult 😌",
-  "Because you're genuinely the best human I know 🌟",
-  "Because you make me want to be a better person 💪",
-  "Because you're hot... I mean, you're really nice! 🔥",
-  "Because you're my favorite cuddle buddy 🤗",
-  "Because you understand me better than anyone else 🧠",
-  "Because you're supportive of all my crazy ideas 💡",
-  "Because you're simply amazing, and I'm lucky to have you 🍀"
+  "بحب لما نتخانق واول ما نفتح فيديو كول بنبص لبعض ونضحك عشان احنا عارفين كويس اوي ان رغم صوتنا العالي احنا لسه بنحب بعض 😂💕",
+  "بحب ان انت الوحيد الي بتعرف تطلعني من اي مود وبتحبني في اي مود اصلا 🌈✨",
+  "بحب ان لما بقولك على حاجه تقربنا لبعض وتريحني انت بتعملها من غير تردد 💝🤗",
+  "بحب ان انت سندي وحبيبي وان انت حسن 💖👑",
+  "بحب الطفل الي جواك الي مش بيظهر غير معايا انا بس 🎈😊",
+  "بحب غيرتك عليا ولما بتقعد تتخانق ف شارع مع اي حد يدايقني 🛡️💪",
+  "بحب اني بحسك عايز تجيبلي حته من السماء طول الوقت ☁️⭐",
+  "بحب اني بحبك من غير سبب انا بس بحبك 💕💖",
+  "بحب مواقفك الجدعه ورجولتك واخلاقك والباد بوي الي جواك بردو 😉🔥",
+  "بحب عيونك الي بتكلم وهي بتبصلي حتى لو انت مقولتش اي حاجه 👀💫",
+  "بحب احتواءك ليا في عز عصبيتي وهبلي 🤗💕",
+  "بحب حنيتك عليا 💝🥰",
+  "بحب اليوم والقدر الي جمعنا سوا 🌟💖"
 ];
 
 export const dateIdeas = [
