@@ -32,8 +32,8 @@ function Generator({ onReady }) {
 
   return (
     <div className="generator-container">
-      <h1 className="generator-title">💕 Valentine's Generator 💕</h1>
-      <p className="generator-subtitle">Click a button to generate something special!</p>
+      <h1 className="generator-title">💕 Life After You 💕</h1>
+      <p className="generator-subtitle">Discover all the reasons why you're my everything 💖</p>
       
       <div className="button-group">
         <button 

@@ -77,5 +77,13 @@ export const dateIdeas = [
   "Have a baking or cooking challenge together 👨‍🍳",
   "Go to a farmers market and cook with what you find 🥬",
   "Have a photo scavenger hunt around the city 📸",
-  "Just stay in, order food, and watch Netflix all day 📺"
+  "Just stay in, order food, and watch Netflix all day 📺",
+  "Go to the opera together 🎭",
+  "Be a passenger princess and spend the night out 🚗✨",
+  "Watch a midnight cinema showing 🎬🌙",
+  "Go to a standup comedy show together 😂",
+  "Attend an Amr Diab concert 🎵",
+  "Go to a Tamer Ashour concert 🎤",
+  "Go painting at the same place where we first met - the perfect date! 🎨💕",
+  "Get very dressed up, hold red flowers, and go to a place where no one knows us - like a new city! 🌹✨"
 ];
