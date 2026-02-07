@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import './ValentineQuestion.css';
 
-function ValentineQuestion() {
+function ValentineQuestion({ onBack }) {
   const [yesClicked, setYesClicked] = useState(false);
   const [noPosition, setNoPosition] = useState({ x: 0, y: 0 });
   const noButtonRef = useRef(null);
@@ -66,6 +66,12 @@ function ValentineQuestion() {
           <p className="celebration-text">Lucky you, you got me forever, not just for Valentine! 💖</p>
           <p className="celebration-text">Happy Valentine's Day, my love! 💕</p>
           <div className="hearts">💖💕💗💓💝💖💕💗</div>
+          <button 
+            className="play-again-btn"
+            onClick={onBack}
+          >
+            Want to say yes again? 😏💕
+          </button>
         </div>
       </div>
     );

@@ -10,12 +10,16 @@ function App() {
     setCurrentView('question');
   };
 
+  const handleBackToGenerator = () => {
+    setCurrentView('generator');
+  };
+
   return (
     <div className="app">
       {currentView === 'generator' ? (
         <Generator onReady={handleReady} />
       ) : (
-        <ValentineQuestion />
+        <ValentineQuestion onBack={handleBackToGenerator} />
       )}
     </div>
   );

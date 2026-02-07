@@ -111,6 +111,29 @@
   animation: float 2s ease-in-out infinite;
 }
 
+.play-again-btn {
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+  font-size: 1.3rem;
+  background: linear-gradient(135deg, #ff6b9d 0%, #ff8fab 100%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.4);
+  font-weight: 600;
+}
+
+.play-again-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 25px rgba(255, 107, 157, 0.6);
+}
+
+.play-again-btn:active {
+  transform: scale(1.02);
+}
+
 @keyframes pulse {
   0%, 100% {
     transform: scale(1);
