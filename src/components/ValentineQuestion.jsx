@@ -6,7 +6,7 @@ function ValentineQuestion() {
   const [noPosition, setNoPosition] = useState({ x: 0, y: 0 });
   const noButtonRef = useRef(null);
 
-  const handleNoHover = () => {
+  const moveNoButton = () => {
     if (yesClicked) return; // Don't move if yes is already clicked
     
     const button = noButtonRef.current;
@@ -43,6 +43,16 @@ function ValentineQuestion() {
     setNoPosition({ x: clampedX, y: clampedY });
   };
 
+  const handleNoClick = (e) => {
+    e.preventDefault();
+    moveNoButton();
+  };
+
+  const handleNoTouchStart = (e) => {
+    e.preventDefault();
+    moveNoButton();
+  };
+
   const handleYesClick = () => {
     setYesClicked(true);
   };
@@ -73,7 +83,9 @@ function ValentineQuestion() {
         <button
           ref={noButtonRef}
           className="no-btn"
-          onMouseEnter={handleNoHover}
+          onMouseEnter={moveNoButton}
+          onClick={handleNoClick}
+          onTouchStart={handleNoTouchStart}
           style={{
             transform: `translate(${noPosition.x}px, ${noPosition.y}px)`,
             transition: 'transform 0.3s ease'
