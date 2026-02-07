@@ -62,7 +62,8 @@ function ValentineQuestion() {
       <div className="celebration-container">
         <div className="celebration-content">
           <h1 className="celebration-title">🎉 YAY! 🎉</h1>
-          <p className="celebration-text">I'm so happy you said yes!</p>
+          <p className="celebration-text">I'm so happy you said yes... because you have no other choice! 😉</p>
+          <p className="celebration-text">Lucky you, you got me forever, not just for Valentine! 💖</p>
           <p className="celebration-text">Happy Valentine's Day, my love! 💕</p>
           <div className="hearts">💖💕💗💓💝💖💕💗</div>
         </div>
