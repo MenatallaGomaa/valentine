@@ -34,7 +34,25 @@ export const messages = [
   "You're the model that predicts my happiness with 100% accuracy 📊💖",
   "I love how you're always in my dependency array 💚",
   "You're the deployment that never fails 🚀💕",
-  "Together we're like a well-architected system - scalable and beautiful 🏗️✨"
+  "Together we're like a well-architected system - scalable and beautiful 🏗️✨",
+  "Remember that painting workshop? Little did I know you'd paint your way into my heart 🎨💕",
+  "You're the best 'accidental' Instagram follow I ever got 😉📸",
+  "I love how you went full detective mode to find all my social media accounts - dedication! 🕵️💖",
+  "Remember when your friend asked for my Instagram? Best wingman move ever! 👯‍♂️💖",
+  "You're the only person who stalked my social media and made it romantic instead of creepy 😂💕",
+  "I love how you went from 'just Instagram' to 'let me add you everywhere' - no half measures! 📱💖",
+  "I love how you got excited about fridge shopping - who knew appliance stores could be so romantic? ❄️💕",
+  "Remember when we went shopping for appliances and you wanted to check every single shop? Best shopping partner ever! 🏪✨",
+  "I love how you'd let me go inside every electronics store we passed - you're so patient! 🛍️💕",
+  "From painting workshop to engagement to fridge shopping - our love story has the best plot twists! 💍❄️",
+  "I love how you turned 'let's buy a fridge' into 'let's explore every electronics shop in the city' 🛒💕",
+  "I love how patient you are when I eat all your food - that's true love right there! 🍕💕",
+  "You're the only person who doesn't mind when I finish your entire plate - you're a keeper! 🍽️💖",
+  "You're so patient when I eat all your food - it's like you're happy to share everything with me! 🍰💖",
+  "I'm so obsessed with you that even sweaty hands don't stop me from holding yours! 💕🤝",
+  "I love holding your hand even when it's sweaty - nothing can make me let go! 💖🤝",
+  "You're the only person whose sweaty hands I actually love holding! 💖✨",
+  "I love how we don't care about sweaty hands - we're just obsessed with each other! 💕🤝"
 ];
 
 export const reasons = [
