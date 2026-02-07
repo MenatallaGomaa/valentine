@@ -5,15 +5,29 @@ import './Generator.css';
 function Generator({ onReady }) {
   const [currentCategory, setCurrentCategory] = useState(null);
   const [currentItem, setCurrentItem] = useState(null);
+  const [indices, setIndices] = useState({
+    message: 0,
+    reason: 0,
+    date: 0
+  });
 
-  const getRandomItem = (array) => {
-    const randomIndex = Math.floor(Math.random() * array.length);
-    return array[randomIndex];
+  const getNextItem = (category, array) => {
+    const categoryKey = category === 'message' ? 'message' : category === 'reason' ? 'reason' : 'date';
+    const currentIndex = indices[categoryKey];
+    const item = array[currentIndex];
+    
+    // Move to next index, reset to 0 if we've reached the end
+    setIndices(prev => ({
+      ...prev,
+      [categoryKey]: (currentIndex + 1) % array.length
+    }));
+    
+    return item;
   };
 
   const handleGenerate = (category, array) => {
     setCurrentCategory(category);
-    setCurrentItem(getRandomItem(array));
+    setCurrentItem(getNextItem(category, array));
   };
 
   return (
