@@ -56,6 +56,27 @@ The built files will be in the `dist` directory.
 
 You can customize the messages, reasons, and date ideas by editing `src/data/content.js`. Add your own personal touches to make it even more special!
 
+### Adding Audio Files
+
+The app supports background music and celebration sounds:
+
+1. **Background Music**: Add "Perfect" by Ed Sheeran (or any romantic song) as `perfect.mp3` to the `public/` folder. The music will loop continuously throughout the app.
+
+   **To add "Perfect" by Ed Sheeran:**
+   - Purchase/download the song legally (iTunes, Amazon Music, etc.)
+   - Convert to MP3 if needed
+   - Rename the file to `perfect.mp3`
+   - Place it in the `public/` folder
+
+2. **Celebration Sound**: Add a celebration sound file named `celebration-sound.mp3` to the `public/` folder. This sound plays when the user clicks "Yes!" on the Valentine question.
+
+**Recommended Sources for Free Audio:**
+- [Pixabay Music](https://pixabay.com/music/search/romantic/) - Free romantic music
+- [Free Music Archive](https://freemusicarchive.org/) - Royalty-free music
+- [Freesound](https://freesound.org/) - Free sound effects
+
+**Note**: Supported audio formats include MP3, WAV, and OGG. Make sure the files are named exactly as specified above.
+
 ## Technologies Used
 
 - React 19
